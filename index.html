@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourTime.ru</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <!--Библиотека jQuery-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!--Готовый скрипт корзины-->
+  <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-e9717f37.js"></script>
+
+  <!--Стили элементов для корзины-->
+  <link href="https://lk.easynetshop.ru/frontend/v5/ens-e9717f37.css" rel="stylesheet">
+  <link rel="icon" type="images/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo">
+            <img src="images/logo.svg" alt="logo">
+          </a>
+          
+            <ul class="header__nav">
+              <li class="header__item">
+                <a class="header__link header__link--active" href="#">главная</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="catalog.html">Каталог</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="contacts.html">Контакты</a>
+              </li>
+              <li class="header__item">
+                <a id="easynetshop-cart" class="header__link" href="#">
+                  <img src="images/cart.svg" alt="cart">
+                  <span class="cart-count" id="easynetshop-cart-count">0</span>
+                </a>
+              </li>
+
+            </ul>
+          
+          <a href="#" class="header__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__wrap">
+              <h1 class="hero__title">Добро пожаловать в магазин мужских наручных часов <br>
+                your <span class="hero__title-accent">time</span> </h1>
+              <p class="hero__text">Часы – это красивое украшение и красивый подарок любому мужчине на все случаи жизни.
+                Они
+                символизируют силу,
+                мужественность, чувство стиля и прекрасно подходят для любой ситуации: от деловых переговоров до отдыха
+                на
+                пляже.</p>
+              <a class="hero__btn" href="catalog.html">каталог</a>
+            </div>
+            <div class="hero__image">
+              <img src="images/watch-bg.avif" alt="watch-bg">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <div class="container">
+          <div class="popular__inner">
+
+            <div class="popular__title">
+              <h2>Популярные модели</h2>
+              <a href="catalog.html">смотреть все</a>
+            </div>
+
+
+            <div class="popular__items">
+              <div class="popular__card">
+                <img src="images/1.avif" alt="часы">
+                <h4 class="popular__product-title">RADO</h4>
+                <div class="popular__price">
+                  <h4 class="popular__price-title ">цена</h4>
+                  <p class="popular__price-text ">66.000 р</p>
+                </div>
+                <a href="#" class="btn-ens-action" data-rel="e9717f37312073">В корзину</a>
+              </div>
+              <div class="popular__card">
+                <img src="images/2.avif" alt="часы">
+                <h4 class="popular__product-title">BVLGARI</h4>
+                <div class="popular__price">
+                  <h4 class="popular__price-title ">цена</h4>
+                  <p class="popular__price-text ">81.000 р</p>
+                </div>
+                <a href="#" class="btn-ens-action" data-rel="e9717f37312073">В корзину</a>
+              </div>
+              <div class="popular__card">
+                <img src="images/3.avif" alt="часы">
+                <h4 class="popular__product-title">BVLGARI</h4>
+                <div class="popular__price">
+                  <h4 class="popular__price-title ">цена</h4>
+                  <p class="popular__price-text ">72.000 р</p>
+                </div>
+                <a href="#" class="btn-ens-action" data-rel="e9717f37312073">В корзину</a>
+              </div>
+              <div class="popular__card">
+                <img src="images/3.avif" alt="часы">
+                <h4 class="popular__product-title">BVLGARI</h4>
+                <div class="popular__price">
+                  <h4 class="popular__price-title ">цена</h4>
+                  <p class="popular__price-text ">72.000 р</p>
+                </div>
+                <a href="#" class="btn-ens-action" data-rel="e9717f37312073">В корзину</a>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__copyright">
+            © все права защищены 2023
+          </div>
+          <img src="images/logo.svg" alt="logo">
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
